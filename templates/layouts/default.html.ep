@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= title %></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  %= stylesheet '/css/main.css'
+  </head>
+  <body>
+  %= include 'partials/_header'
+  <%= content %>
+  </body>
+</html>

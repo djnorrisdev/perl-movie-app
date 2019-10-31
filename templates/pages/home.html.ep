@@ -1,0 +1,11 @@
+% layout 'default';
+% title 'Home';
+<h1 class="home-centered-title">Find Your Favorite Shows and Movies</h1>
+<div class="centered-div">
+  <form action="/search_results" method="POST">
+    <input id="home-search-input"/>
+    <button>Search</button>
+  </form>
+</div>
+<h2 class="home-centered-title">Search to Get Started</h2>
+%= javascript 'js/indexJs.js'

@@ -1,0 +1,9 @@
+<nav id="nav-wrapper">
+    <div><a id="home-img-wrapper" href="/"><img id="home-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg"/></a></div>
+    <div>
+      %= link_to Home => '/' => (class => 'top-menu')
+      %= link_to About => 'about' => (class => 'top-menu')
+      %= link_to Contact => 'contact' => (class => 'top-menu')
+      %= link_to 'Login', '#', class => 'top-menu', onclick => 'handleLogin()'
+    </div>
+  </nav>

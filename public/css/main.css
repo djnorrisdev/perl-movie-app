@@ -1,0 +1,35 @@
+
+
+body, html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+  }
+  
+  #nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #home-img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .top-menu {
+    color: #333333;
+    # background: dodgerblue;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 0.7rem;
+    # border-radius: 4px;
+  }
+  
+  .home-centered-title {
+    text-align: center;
+  }
+  
+  .centered-div {
+    display: flex;
+    justify-content: center;
+  }
