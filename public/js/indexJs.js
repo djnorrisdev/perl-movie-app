@@ -22,10 +22,9 @@ $(function() {
       storeHomeInput($(this).val())
     })
   
-    $('#home-sub-form').on("submit", function() {
-        event.preventDefault()
-        var finalHomeInputVal = storeHomeInput()
-        console.log(finalHomeInputVal)
-        // window.location.href = "/search_results?param=" + finalHomeInputVal
-    })
+    // $('#home-sub-form').on("submit", function() {
+    //     event.preventDefault()
+    //     var finalHomeInputVal = storeHomeInput()
+    //     console.log(finalHomeInputVal)
+    // })
   })
